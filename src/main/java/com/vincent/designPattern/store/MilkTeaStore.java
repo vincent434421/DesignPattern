@@ -10,8 +10,8 @@ public class MilkTeaStore {
         this.factory = factory;
     }
 
-    MilkTea createMilkTea(String storeType, String teaType) {
-        milkTea = factory.create("ALitte","乌龙奶茶");
+    public MilkTea createMilkTea(String storeType, String teaType) {
+        milkTea = factory.create(storeType,teaType);
 //        milkTea = new MilkTea();  将原来的new 语句改成使用工厂类来new一个需要的方法
         milkTea.prepare();
         milkTea.make();
