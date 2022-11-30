@@ -26,6 +26,9 @@ public class DependentStore {
             System.out.println("Error: invalid value");
             return null;
         }
+        milkTea.prepare();
+        milkTea.make();
+        milkTea.box();
         return milkTea;
     }
 }
