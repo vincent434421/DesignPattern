@@ -16,7 +16,8 @@ class DesignPatternApplicationTests {
      *
      * 1. 工厂方法就是一个方法
      * 2. 工厂方法必须是抽象的
-     * 3. 工厂方法就是用来处理生成一个对象用的
+     * 3. 工厂方法就是用来处理生成一个对象用的，必须返回一个对象
+     * 4. MilkTeaStore可以看成是creator类，MilkTea可是看成是产品类
      */
     @Test
     void factory_method_test() {
