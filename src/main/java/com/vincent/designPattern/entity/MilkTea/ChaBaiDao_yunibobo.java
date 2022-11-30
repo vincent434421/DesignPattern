@@ -1,4 +1,4 @@
-package com.vincent.designPattern.entity;
+package com.vincent.designPattern.entity.MilkTea;
 
 public class ChaBaiDao_yunibobo implements MilkTea {
     @Override
